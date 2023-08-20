@@ -1,5 +1,5 @@
 # AppNation.CaseStudy Uygulama Altyapı Bilgileri
-Uygulama backend node js, frontedend react ve database olarak postgres kullanarak olarak kodlanmıştır.
+Uygulama backend NodeJs, frontedend React ve database olarak PostgreSQL kullanarak olarak kodlanmıştır.
 
 # Site Bilgileri
 Sayfayı açtığınızda sizi bir login sayfası karşılayacaktır. Login sayfasına kullanıcı adını admin şifreyi P@ssword!!! olarak girdiğinizde sisteme admin olarak giriş yapacaksınız.
@@ -25,3 +25,5 @@ users tablosu:
     password varchar(60) not null, (hash'li bir şekilde tutulmaktadır.)
     is_admin boolean not null,
     Primary key (user_id)
+
+PostgreSQL Url: postgresql://AppNation_evendateno:f27eb603058794fd036af3fd9f3a53c346df1f1b@3u7.h.filess.io:5432/AppNation_evendateno
